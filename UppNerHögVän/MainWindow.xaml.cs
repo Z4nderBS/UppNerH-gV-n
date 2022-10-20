@@ -44,7 +44,7 @@ namespace UppNerHögVän
                 case Key.Down:
                     var link2 = new ProcessStartInfo
                     {
-                        FileName = "https://www.youtube.com/watch?v=ioRhanH4xmE",
+                        FileName = "https://www.youtube.com/watch?v=Lq0ZN7IkxxU",
                         UseShellExecute = true
                     };
                     Process.Start(link2);
@@ -52,7 +52,7 @@ namespace UppNerHögVän
                 case Key.Left:
                     var link3 = new ProcessStartInfo
                     {
-                        FileName = "https://www.youtube.com/watch?v=oGjk4XZU06k",
+                        FileName = "https://www.youtube.com/watch?v=c7BVtGnlxT8",
                         UseShellExecute = true
                     };
                     Process.Start(link3);
