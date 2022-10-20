@@ -1,0 +1,23 @@
+﻿<Window x:Class="UppNerHögVän.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UppNerHögVän"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Bisque" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="123*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="C:\iths_main\vecka 42\Uppgift 3\UppNerHögVän\UppNerHögVän\keys\upp.jpg" Height="100" Width="100" Margin="350,76,42,258" />
+        <Image Source="C:\iths_main\vecka 42\Uppgift 3\UppNerHögVän\UppNerHögVän\keys\ner.jpg" Height="100" Width="100" Margin="350,181,42,153"/>
+        <Image Source="C:\iths_main\vecka 42\Uppgift 3\UppNerHögVän\UppNerHögVän\keys\höger.jpg" Height="100" Width="100" Margin="455,183,245,151" Grid.ColumnSpan="2"/>
+        <Image Source="C:\iths_main\vecka 42\Uppgift 3\UppNerHögVän\UppNerHögVän\keys\vänster.jpg" Height="100" Width="100" Margin="247,181,145,153" />
+
+        <Label Content="Tryck på någon av pilarna på ditt tangentbord och se vart du hamnar ;)" HorizontalAlignment="Left" Margin="192,32,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="416"/>
+        <Image Source="C:\iths_main\vecka 42\Uppgift 3\UppNerHögVän\UppNerHögVän\images\depositphotos_8728305-stock-photo-angry-kid-screams-into-the.jpg" Margin="37,173,264,20" />
+        <Image Source="C:\iths_main\vecka 42\Uppgift 3\UppNerHögVän\UppNerHögVän\images\economic-depression-11363114.jpg" Margin="93,259,65,46" Grid.Column="1" />
+    </Grid>
+</Window>
